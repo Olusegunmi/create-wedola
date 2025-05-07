@@ -1,5 +1,5 @@
 {
-    "rewrite": [
+    "rewrites": [
         {
             "source": "/((?!assests/.*)",
             "destination" : "/api/ssr.jsx"
