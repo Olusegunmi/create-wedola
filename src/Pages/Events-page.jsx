@@ -3,12 +3,15 @@ import React from 'react';
 import PageTitle from '../Components/PageTitle';
 import Services from '../Sections/Events/Service';
 import Clients from '../Sections/Events/Client';
+import Header from '../Components/Header';
+
 
 function Events() {
     return (
         <>
             <div className="page-wrapper">
                 {/* <Layout FooterStyle="three"> */}
+                   <Header />
                     <PageTitle
                         title="EVENTS"
                         breadcrumb={[
