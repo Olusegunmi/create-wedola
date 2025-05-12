@@ -4,12 +4,14 @@ import PageTitle from '../Components/PageTitle';
 import Event from '../Sections/Timeline/Event';
 import Couple from '../Sections/Timeline/Couple';
 import Gallery from '../Sections/Home/Gallery';
+import Header from '../Components/Header';
 
 function TimelinePage() {
     return (
         <>
             <div className="page-wrapper">
                 {/* <Layout FooterStyle="three"> */}
+                    <Header />
                     <PageTitle
                         title="Our Timeline"
                         breadcrumb={[

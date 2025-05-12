@@ -4,12 +4,14 @@ import PageTitle from '../Components/PageTitle';
 import Story from '../Sections/Story/Story';
 import Couple from '../Sections/Story/Couple';
 import Gallery from '../Sections/Story/Gallery';
+import Header from '../Components/Header';
 
 function StoryPage() {
     return (
         <>
             <div className="page-wrapper">
                 {/* <Layout FooterStyle="three"> */}
+                   <Header />
                     <PageTitle
                         title="Our Story"
                         breadcrumb={[

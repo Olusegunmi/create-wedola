@@ -4,12 +4,14 @@ import PageTitle from '../Components/PageTitle';
 import Clients from '../Sections/RSVP/Client.jsx';
 // import Contact from '../Sections/RSVP/Contact.jsx';
 // import CallToAction from '../Sections/Home/CallToAction.jsx';
+import Header from '../Components/Header.jsx';
 
 function RSVP() {
     return (
         <>
             <div className="page-wrapper">
                 {/* <Layout FooterStyle="three"> */}
+                    <Header />
                     <PageTitle
                         title="RSVP"
                         breadcrumb={[

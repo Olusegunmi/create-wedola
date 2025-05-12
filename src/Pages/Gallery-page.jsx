@@ -4,12 +4,14 @@ import PageTitle from '../Components/PageTitle';
 import Gallery from '../Sections/Gallery/Gallery';
 import Gallery2 from '../Sections/Gallery/Gallery2';
 import Gallery3 from '../Sections/Home/Gallery';
+import Header from '../Components/Header';
 
 function GalleryPage() {
     return (
         <>
             <div className="page-wrapper">
                 {/* <Layout FooterStyle="three"> */}
+                    <Header />
                     <PageTitle
                         title="Our Gallery"
                         breadcrumb={[

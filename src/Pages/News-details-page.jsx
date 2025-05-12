@@ -8,6 +8,7 @@ function NewsDetailsPage() {
         <>
             <div className="page-wrapper">
                 {/* <Layout FooterStyle="three"> */}
+                   <Header />
                     <PageTitle
                         title="Contact Us"
                         breadcrumb={[
